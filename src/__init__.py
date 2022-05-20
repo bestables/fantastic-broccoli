@@ -1,9 +1,5 @@
 """Fantastic Brocolli startup."""
-from dotenv import load_dotenv
 from flask import Flask
-
-# Load enviroment variables
-load_dotenv()
 
 
 def create_app() -> Flask:
